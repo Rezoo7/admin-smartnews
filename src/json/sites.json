@@ -1,0 +1,95 @@
+{
+    "liste": [
+
+        {
+            "id" : 0,
+            "nom": "Perlinpinpin",
+            "mailResponsable": "perlin.pinpin@magie.com",
+            "googleID": "20d20df51520fd515f020",
+            "liste_screen": [
+                {
+                    "id" : 0,
+                    "nom": "Accueil",
+                    "zones" : {},
+                    "template": 1
+                },
+                {
+                    "id": 1,
+                    "nom": "Fruits & Légumes",
+                    "zones" : {},
+                    "template": 2
+                },
+                {
+                    "id": 2,
+                    "nom": "Réserve",
+                    "zones" : {},
+                    "template": 3
+                }
+            ]
+        },
+        {
+            "id" : 1,
+            "nom": "Antares",
+            "mailResponsable": "2.pinpin@magie.com",
+            "googleID": "20d20df51520fd515f020",
+            "liste_screen": [
+                {
+                    "id" : 0,
+                    "nom": "Accueil",
+                    "zones" : {},
+                    "template": 1
+                },
+                {
+                    "id" : 1,
+                    "nom": "Fruits & Légumes",
+                    "zones" : {},
+                    "template": 2
+                },
+                {
+                    "id" : 2,
+                    "nom": "Ecran salle 1",
+                    "zones" : {},
+                    "template": 3
+                }
+            ]
+        },
+        {
+            "id" : 2,
+            "nom": "Entrepot Nord",
+            "mailResponsable": "3.pinpin@magie.com",
+            "googleID": "20d20df51520fd515f020"
+        },
+        {
+            "id" : 3,
+            "nom": "SuperU-LHermitage",
+            "mailResponsable": "4.pinpin@magie.com",
+            "googleID": "20d20df51520fd515f020",
+            "liste_screen": [
+                {
+                    "id" : 0,
+                    "nom": "Accueil",
+                    "zones" : {},
+                    "template": 1
+                },
+                {
+                    "id" : 1,
+                    "nom": "Fruits & Légumes",
+                    "zones" : {},
+                    "template": 2
+                },
+                {
+                    "id" : 2,
+                    "nom": "Réserve",
+                    "zones" : {},
+                    "template": 3
+                }
+            ]
+        },
+        {
+            "id" : 4,
+            "nom": "HyperU-qqPart",
+            "mailResponsable": "4.pinpin@magie.com",
+            "googleID": "20d20df51520fd515f020"
+        }
+    ]
+}

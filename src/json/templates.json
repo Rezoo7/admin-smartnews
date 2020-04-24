@@ -1,0 +1,241 @@
+{
+    "templates" : [
+        {   
+            "id": "0",
+            "name": "Template principal",
+            "img" : "http://localhost/Images_Test/images_templates/temp_principal.png",
+            "divs" : [0,1,0,0],
+            "zones" : [            
+                {
+                    "id": 0,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 1070,
+                    "displayInline" : false
+                }
+            ]
+        },
+        {   
+            "id": "1",
+            "name": "Template principal, Deux bandeaux",
+            "img" : "http://localhost/Images_Test/images_templates/temp_1e_2b.png",
+            "divs" : [1,1,0,1],
+            "zones" : [            
+                {
+                    "id": 0,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 120,
+                    "displayInline" : false
+                },
+                
+                {
+                    "id": 1,
+                    "longueur_per" : 100,
+                    "color" : "#DCD7D6",
+                    "displayInline" : false
+                },
+                {
+                    "id": 2,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 150,
+                    "displayInline" : false
+                }
+            ]
+        },
+        {   
+            "id": "2",
+            "name": "Template Deux écrans, Deux bandeaux",
+            "img" : "http://localhost/Images_Test/images_templates/temp_2e_2b.png",
+            "divs" : [1,1,1,1],
+            "zones" : [            
+                {
+                    "id": 0,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 120,
+                    "displayInline" : false
+                },
+                
+                {
+                    "id": 1,
+                    "longueur_per" : 60,
+                    "hauteur_px" : 800,
+                    "displayInline" : false
+                },
+            
+                {
+                    "id": 2,
+                    "longueur_per" : 40,
+                    "hauteur_px" : 800,
+                    "displayInline" : true
+                },
+                {
+                    "id": 3,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 150,
+                    "displayInline" : false
+                }
+            ]
+        },
+        {   
+            "id": "3",
+            "name": "Template Deux écrans, un bandeau",
+            "img" : "http://localhost/Images_Test/images_templates/temp_2e_1b.png",
+            "divs" : [0,1,1,1],
+            "zones" : [                        
+                {
+                    "id": 0,
+                    "longueur_per" : 60,
+                    "hauteur_px" : 915,
+                    "displayInline" : false
+                },
+                {
+                    "id": 1,
+                    "longueur_per" : 40,
+                    "hauteur_px" : 915,
+                    "displayInline" : true
+                },
+                {
+                    "id": 2,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 150,
+                    "displayInline" : false                 
+                }
+            ]
+        
+        },
+        {   
+            "id": "4",
+            "name": "Template Trois écrans Deux bandeaux",
+            "img" : "http://localhost/Images_Test/images_templates/temp_3e_2b.png",
+            "divs" : [1,1,2,1],
+            "zones" : [            
+                {
+                    "id": 0,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 120,
+                    "displayInline" : false
+                },
+                
+                {
+                    "id": 1,
+                    "longueur_per" : 60,
+                    "hauteur_px" : 800,
+                    "displayInline" : false
+                },
+            
+                {
+                    "id": 2,
+                    "longueur_per" : 40,
+                    "hauteur_px" : 400,
+                    "displayInline" : true
+                },
+                {
+                    "id": 3,
+                    "longueur_per" : 40,
+                    "hauteur_px" : 400,
+                    "displayInline" : false
+                },
+                {
+                    "id": 4,
+                    "longueur_per" : 100,
+                    "hauteur_px" : 150,
+                    "displayInline" : false
+                }
+            ]
+
+        },
+        {
+            
+            "id": "5",
+            "name": "Template Trois écrans, un bandeau",
+            "img" : "http://localhost/Images_Test/images_templates/temp_3e_1bg.png",
+            "divs" : [0,1,2,1],
+            "zones" : [            
+                {
+                    "id": 0,
+                    "folderName": "Zone Principal",
+                    "longueur_per" : 55,
+                    "hauteur_px" : 870,
+                    "color" : "#DCD7D6",
+                    "displayInline" : false,
+                    "content": 
+                        [
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 60
+                            }
+                        ]
+                },
+            
+                {
+                    "id": 1,
+                    "folderName": "Zone Droite Haut",
+                    "longueur_per" : 45,
+                    "hauteur_px" : 450,
+                    "color" : "#F04E1B",
+                    "displayInline" : true,
+                    "content":
+                        [
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 5
+                            },
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 10
+                            },
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 15
+                            }
+                        ]
+                },
+                {
+                    "id": 2,
+                    "folderName": "Zone Droite bas",
+                    "longueur_per" : 45,
+                    "hauteur_px" : 620,
+                    "color" : "#75E11A",
+                    "displayInline" : true,
+                    "content":
+                        [
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 5
+                            },
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 10
+                            },
+                            {
+                                "type" : "",
+                                "link" : "",
+                                "timer" : 15
+                            }
+                        ]
+                },
+                {
+                    "id": 3,
+                    "folderName": "Bandeau",
+                    "longueur_per" : 55,
+                    "hauteur_px" : 200,
+                    "color" : "#4CCDDE",
+                    "displayInline" : false,
+                    "content":
+                    [
+                        {
+                            "type" : "",
+                            "link" : "",
+                            "timer": 35
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
